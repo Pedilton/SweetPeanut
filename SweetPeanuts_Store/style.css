@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); /*font do google*/
+
+*{/*estilizacao comleta*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+
+body{/*estilizacao do corpo*/
+    background-color: #fff1df;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    color: #8c481f;
+}
+
+.header{/*estilizacao do cabecalho*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h1{/*estilizacao do titulo na div logo*/
+    color: #8c481f;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.logo img{/*estilizacao da imagem na div logo*/
+    height: 25px;
+    width: 25px;
+}
+
+ul{/*estilizacao do tipo de list*/
+    list-style: none;
+}
+
+a{/*estilizacao dos links*/
+    text-decoration: none;
+    display: flex;
+    color: #35190f;
+    transition: 1.5s;
+}
+
+
+a:hover{
+color: #8c481f;
+text-decoration: underline;
+}
+
+.icons img{/*estilizacao dos icons*/
+    height: 20px;
+    width: 20px;
+}
+
+.links ul, .icons ul{/*estilizacao das listas dos links e dos icons*/
+    display: flex;
+    gap: 15px;
+}
+
+.hero{/*estilizacao do conteudo principal*/
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 22px;
+    padding-left: 175px;
+    background-image: linear-gradient(45deg, #f2dfc4, transparent), url('image/imagem.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+   .hero{
+    padding: 12px;
+    padding-left: 10px;
+   } 
+}
+
+.hero-badge{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+border: 1px solid #35190f;
+border-radius: 50px;
+padding: 7px 14px;
+font-weight: 700;
+font-size: 1em;
+}
+
+.badge-point{
+    color: #35190f;
+}
+
+.hero h1{
+    color: #35190f;
+}
+
+.look{/*estilizacao do botao*/
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8c481f;
+    color: #fff1df;
+    font-weight: 700;
+    font-size: 13px;
+    width: 200px;
+}
+
+.story{/*estilizacao do botao*/
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #35190f;
+    background-color: transparent;
+    color: #35190f;
+    font-weight: 700;
+    font-size: 13px;
+    width: 200px;
+}
+
+.garantias{/*estilizacao da caixa de garantias*/
+    display: flex;
+    color: #35190f;
+    gap: 22px;
+}
+
+.garantias img{/*estilizacao das imagens de garantia*/
+    height: 15px;
+    width: 15px;
+}
+
+.snaks{/*estilizacao da caixa principal de amostra*/
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+@media (max-width: 768px) {
+  .snaks{
+    padding: 12px;
+    padding-left: 10px;
+   }  
+}
+
+.snaks h1{color: #35190f;}
+
+.products{/*estilizacao da caixa de produtos em amostra*/
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .item{
+    width: 500px;
+   }  
+}
+
+.item{/*estilizacao dos produtos*/
+    background-color: #f2dfc4;
+    padding:22px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.desc{
+    text-align: center;
+    background-color: #fff1df;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.desc h3{
+    color: #35190f;
+}
+
+.buy-btn{
+    border: none;
+    padding: 12px;
+    color: #fff1df;
+    background-color: #8c481f;
+    font-weight: 700;
+    border-radius: 12px;
+    width: 185px;
+}
+
+.preferencia{/*estilizacao da seccao de preferencia*/
+    border-top: 1px solid #35190f;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    align-items: center;
+    gap: 8px;
+}
+
+.preferencia h2{
+    color: #35190f;
+}
+
+.favorite{/*estilizacao da caixa principal de preferencia*/
+    display: flex;
+    gap: 8px;
+}
+
+.garante{/*estilizacao das garantias*/
+    border-right: 1px solid #35190f;
+    padding: 6px;
+}
+
+.garante img{
+    height: auto;
+    width: 15px;
+}
+
+.garante h3{
+    color: #35190f;
+}
+
+.foot{/*estilizacao do rodape*/
+    text-align: center;
+    background-color: #8c481f;
+    padding: 5px;
+}
+
+.foot-text{
+    color: #fff1df;
+    padding: 5px;
+    font-weight: 600;
+}
+
