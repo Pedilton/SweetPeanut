@@ -16,6 +16,7 @@ body{/*estilizacao do corpo*/
 
 .header{/*estilizacao do cabecalho*/
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
